@@ -1,0 +1,71 @@
+/* Headers */
+.header {
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.logo {
+    width: 80px;
+}
+.nav-items > ul {
+    display: flex;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 10px;
+    /* padding: 0px 30px; */
+}
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+.login-button {
+    width: 60px;
+    height: 30px;
+    align-self: center;
+    margin: 10px;
+}
+
+/* Body */
+.app-body {
+    margin: 10px 0px;
+}
+.filter {
+    display: flex;
+    margin: 10px 0px;
+}
+.top-rated {
+    margin-left: 20px;
+}
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap; /* To wrap the cards inside the frame */
+}
+.restaurant-logo {
+    width: 200px;
+    height: 200px;
+}
+.restaurant-card {
+    display: inline-table;
+    padding: 5px;
+    background-color: rgb(240, 240, 240);
+    width: 200px;
+    margin: 2px;
+}
+.restaurant-card:hover {
+    margin:1px;
+    cursor: pointer;
+    border: 1px solid black;
+    /* box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2); */
+}
+
+/* Shimmer */
+.shimmer-card {
+    display: inline-table;
+    padding: 5px;
+    background-color: rgb(240, 240, 240);
+    width: 200px;
+    height : 300px;
+    margin: 2px;
+}
